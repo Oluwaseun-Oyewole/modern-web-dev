@@ -5,7 +5,6 @@ export function createElement(type, id, content, events = {}) {
   for (let [fn, handle] of Object.entries(events)) {
     element.addEventListener(fn, handle);
   }
-
   document.body.appendChild(element);
   return element;
 }
