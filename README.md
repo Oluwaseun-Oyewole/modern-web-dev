@@ -1,0 +1,1 @@
+The repo simply explains the evolution of modern web dev from creating simple HTML, CSS, JS to transpilation with babel(JS-JS Compilers) using babel loaders,module bundling with webpack, moving to react and typescript.
