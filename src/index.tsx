@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { createRoot } from "react-dom/client";
+import * as React from "react";
+import * as ReactDOM from "react-dom/client";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = React.useState(0);
 
   return (
     <div>
@@ -14,6 +14,6 @@ function App() {
 
 const container = document.getElementById("root");
 if (container) {
-  const root = createRoot(container);
+  const root = ReactDOM.createRoot(container);
   root.render(<App />);
 } else console.error("Root container not found");
